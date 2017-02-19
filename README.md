@@ -39,11 +39,7 @@ $ docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)
 
 ### Controllers
 
-By default, will not be dependent on the path's name anymore, all views are centralized to one master controller.
-
-```sh
-/controllers/page.php
-```
+By default, will not be dependent on the path's name anymore, all views are centralized to [one master controller](https://github.com/bebensiganteng/PHP-Static-Framework/blob/master/www/application/controllers/page.php).
 
 ### Views
 
@@ -92,11 +88,7 @@ You need the format below;
  
 > Subpaths that is more than 1 level deep has not been tested.
 
-If a library of Javascript files are needed for each View, those can be customized through the config.php.
-
-```sh
-/config/config.php
-```
+If a library of Javascript files are needed for each View, those can be customized through the [config.php](https://github.com/bebensiganteng/PHP-Static-Framework/blob/master/www/application/config/config.php).
 
 ```php
 
